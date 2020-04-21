@@ -1,14 +1,6 @@
 .header {
     position: relative;
     padding-top: 40px;
-    &__background {
-        position: absolute;
-        top: -40px;
-        right: -150px;
-        height: 790px;
-        width: 660px;
-        background: url("../img/main-bg.jpg") center (center/cover) no-repeat;
-    }
     &__logo {
         padding-top: 7px;
     }

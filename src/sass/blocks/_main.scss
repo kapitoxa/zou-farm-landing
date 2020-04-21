@@ -1,0 +1,19 @@
+.main {
+    padding: 128px 0 220px 0;
+    height: 700px;
+    &__background {
+        position: absolute;
+        top: -216px;
+        right: -150px;
+        height: 790px;
+        width: 660px;
+        background: url("../img/main-bg.jpg") center (center/cover) no-repeat;
+        z-index: -1;
+    }
+    &__header {
+        color: $text-color;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 64px;
+    }
+}
