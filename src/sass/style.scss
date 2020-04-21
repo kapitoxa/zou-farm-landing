@@ -2,3 +2,12 @@
 @import "libs/_bootstrap-grid.min.css";
 
 @import "base/variables";
+* {
+    font-family: 'Chivo', sans-serif;
+}
+.container {
+    position: relative;
+}
+
+@import "blocks/header";
+@import "blocks/buttons";

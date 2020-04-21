@@ -1,0 +1,39 @@
+.header {
+    position: relative;
+    padding-top: 40px;
+    &__background {
+        position: absolute;
+        top: -40px;
+        right: -150px;
+        height: 790px;
+        width: 660px;
+        background: url("../img/main-bg.jpg") center (center/cover) no-repeat;
+    }
+    &__logo {
+        padding-top: 7px;
+    }
+    &__menu {
+        margin-top: 12px;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-link {
+            color: $text-color;
+            font-size: 16px;
+            font-weight: 400;
+            &:hover {
+                color: $text-color;
+            }
+            &_active {
+                color: $main-color;
+                font-weight: 700;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}

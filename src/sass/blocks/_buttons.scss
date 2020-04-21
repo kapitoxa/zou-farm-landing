@@ -1,0 +1,14 @@
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    background: transparent no-repeat;
+    font-size: 16px;
+    color: #f1f8e9;
+    &_mr {
+        margin: 0 0 0 auto;
+    }
+}
