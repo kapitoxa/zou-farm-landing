@@ -1,0 +1,44 @@
+.opportunitie {
+    &__divider {
+        margin: 104px 0 82px 0;
+        height: 2px;
+        border: none;
+        background-color: #f7f7f7;
+    }
+    &-item {
+        height: 405px;
+        // border: 1px solid black;
+        border-radius: 5px;
+        padding: 50px 30px 15px 30px;
+        &__icon {
+            &_inverse {
+                margin: 15px 0;
+            }
+        }
+        &__title {
+            margin-top: 21px;
+            color: #263238;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
+            &_inverse {
+                color: #ffffff;
+            }
+        }
+        &__descr {
+            margin-top: 21px;
+            color: #263238;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            &_inverse {
+                color: #e8f5e9;
+            }
+        }
+        &_inverse {
+            box-shadow: 0 25px 25px rgba(118, 196, 125, 0.31);
+            border-radius: 5px;
+            background-color: $main-color;
+        }
+    }
+}

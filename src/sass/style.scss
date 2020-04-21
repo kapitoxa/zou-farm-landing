@@ -2,6 +2,7 @@
 @import "libs/_bootstrap-grid.min.css";
 
 @import "base/variables";
+@import "base/utilites";
 * {
     font-family: 'Chivo', sans-serif;
 }
@@ -13,3 +14,5 @@
 @import "blocks/buttons";
 @import "blocks/main";
 @import "blocks/description";
+@import "blocks/opportunitie";
+@import "blocks/title";
