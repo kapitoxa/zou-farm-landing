@@ -22,4 +22,12 @@
     &__button {
         margin-top: 54px;
     }
+    &__additional-img {
+        position: absolute;
+        bottom: -570px;
+        left: -120px;
+        width: 167px;
+        height: 594px;
+        background: url("../img/top-shape.png") center (center/cover) no-repeat;
+    }
 }
