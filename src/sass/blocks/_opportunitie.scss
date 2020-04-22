@@ -8,12 +8,14 @@
     &__row {
         margin-top: 100px;
     }
+    &__title {
+        text-align: center;
+    }
     &__description {
         text-align: center;
     }
     &-item {
         height: 405px;
-        // border: 1px solid black;
         border-radius: 5px;
         padding: 50px 30px 15px 30px;
         &__icon {

@@ -1,0 +1,53 @@
+.convenience {
+    &__container {
+        padding: 0 72px 117px 72px;
+    }
+    &__description {
+        margin-top: 14px;
+    }
+    &__row {
+        margin-top: 68px;
+    }
+    &-item {
+        padding: 39px 192px 56px 72px;
+        height: 416px;
+        &_image {
+            &_1 {
+                background: url("../img/term-1.jpg") center center/cover no-repeat;
+            }
+            &_2 {
+                background: url("../img/term-2.jpg") center center/cover no-repeat;
+            }
+        }
+        &__label {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 2.8px;
+            color: $main-color;
+            text-transform: uppercase;
+        }
+        &__divider {
+            margin-top: 17px;
+            width: 56px;
+            height: 4px;
+            border-radius: 2px;
+            background-color: #ffffff;
+        }
+        &__title {
+            margin-top: 61px;
+            font-size: 31px;
+            font-weight: 700;
+            line-height: 40px;
+            color: #ffffff;
+        }
+        &__descr {
+            margin-top: 18px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #e2efd2;
+        }
+        &__button {
+            margin-top: 28px;
+        }
+    }
+}
