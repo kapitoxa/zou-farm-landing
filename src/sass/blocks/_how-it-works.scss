@@ -1,0 +1,69 @@
+.how-it-works {
+    &__wrapper {
+        padding: 106px 205px 143px 205px;
+        height: 720px;
+        border-radius: 5px;
+        background: $main-color url("../img/how-it-works-shape.png") center center/cover no-repeat;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__description {
+        margin-top: 14px;
+        text-align: center;
+    }
+    &__steps-wrapper {
+        position: relative;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__step {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        height: 72px;
+        border: 2px solid #b3dcb6;
+        border-radius: 100%;
+        background-color: $main-color;
+        font-size: 18px;
+        color: #d1ead3;
+        &_active {
+            border: none;
+            box-shadow: -1px 13px 20px #5ab963;
+            background-color: #ecf7ed;
+            color: #66bb6a;
+            font-size: 18px;
+        }
+        z-index: 1;
+    }
+    &__divider {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 2px;
+        background-color: #a5d6a7;
+    }
+    &__info-wrapper {
+        margin-top: 83px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info-title {
+        max-width: 40%;
+        color: $second-color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    &__info-descr {
+        padding-left: 59px;
+        max-width: 60%;
+        color: #e8f5e9;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
