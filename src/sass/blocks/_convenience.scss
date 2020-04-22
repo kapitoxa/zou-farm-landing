@@ -31,14 +31,14 @@
             width: 56px;
             height: 4px;
             border-radius: 2px;
-            background-color: #ffffff;
+            background-color: $second-color;
         }
         &__title {
             margin-top: 61px;
             font-size: 31px;
             font-weight: 700;
             line-height: 40px;
-            color: #ffffff;
+            color: $second-color;
         }
         &__descr {
             margin-top: 18px;
