@@ -28,6 +28,14 @@
         border-radius: 5px;
         padding: 50px 30px 15px 30px;
         background-color: $second-color;
+        &_shadow {
+            &_right {
+                box-shadow: 13px 0px 20px #f0f2f4;
+            }
+            &_left {
+                box-shadow: -13px 0px 20px #f0f2f4;
+            }
+        }
         &__icon {
             &_inverse {
                 margin: 15px 0;
