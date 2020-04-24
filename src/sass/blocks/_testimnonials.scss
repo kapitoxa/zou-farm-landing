@@ -1,27 +1,21 @@
 .testimnonials {
     padding-top: 267px;
-    &__shape {
-        position: absolute;
-        top: 0;
-        left: 85px;
-        width: 155px;
-        height: 108px;
-        background: url("../img/quotes.png") center center/cover no-repeat;
-        z-index: -1;
-    }
+    min-height: 894px;
+    background: url("../../img/testimnonials-bg.png") center bottom no-repeat;
     &__title {
-        padding-left: 72px;
+        margin-left: 72px;
+        height: 108px;
+        background: url("../img/quotes.png") left top no-repeat;
     }
     &__wrapper {
         position: relative;
         margin: 0 auto;
-        padding-top: 101px;
+        margin-top: 83px;
         display: flex;
-        width: 1440px;
         &:before {
             content: "";
             position: absolute;
-            top: 121px;
+            top: 20px;
             left: 0;
             width: 248px;
             height: 296px;
@@ -31,7 +25,7 @@
         &:after {
             content: "";
             position: absolute;
-            top: 121px;
+            top: 20px;
             right: 0;
             width: 248px;
             height: 296px;

@@ -2,15 +2,8 @@
     position: relative;
     padding-top: 184px;
     padding-bottom: 51px;
-    &__shape {
-        position: absolute;
-        top: -373px;
-        right: -150px;
-        width: 1440px;
-        height: 720px;
-        background: url("../img/invest-bg.png") center center/cover no-repeat;
-        z-index: -1;
-    }
+    min-height: 531px;
+    background: url("../img/invest-bg.png") center center/cover no-repeat;
     &__wrapper {
         margin: 0 auto;
         padding: 77px 0 79px 0;

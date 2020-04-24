@@ -1,6 +1,8 @@
 .header {
     position: relative;
     padding-top: 40px;
+    min-height: 788px;
+    background: url("../img/main-bg.png") center (center/cover) no-repeat;
     &__logo {
         padding-top: 4px;
     }
@@ -30,5 +32,20 @@
     }
     &__button {
         margin: 0 0 0 auto;
+    }
+    &-info {
+        padding: 128px 0 216px 0;
+        &__title {
+            color: $text-color;
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 64px;
+        }
+        &__description {
+            margin-top: 30px;
+        }
+        &__button {
+            margin-top: 54px;
+        }
     }
 }

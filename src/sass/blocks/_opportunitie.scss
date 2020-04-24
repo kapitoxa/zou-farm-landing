@@ -1,13 +1,6 @@
 .opportunitie {
-    &__shape {
-        position: absolute;
-        top: 25px;
-        right: -150px;
-        width: 1410px;
-        height: 631px;
-        background: url("../img/new-opportunities-shape.png") center center/cover no-repeat;
-        z-index: -1;
-    }
+    min-height: 810px;
+    background: url("../../img/opportunitie-bg.png") center top no-repeat;
     &__divider {
         margin: 104px 0 82px 0;
         height: 2px;

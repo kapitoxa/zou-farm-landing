@@ -1,7 +1,8 @@
 .how-it-works {
+    min-height: 720px;
     &__wrapper {
         padding: 106px 205px 143px 205px;
-        height: 720px;
+        min-height: 720px;
         border-radius: 5px;
         background: $main-color url("../img/how-it-works-shape.png") center center/cover no-repeat;
     }
