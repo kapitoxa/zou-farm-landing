@@ -1,0 +1,33 @@
+.card {
+    padding: 32px 61px 72px 56px;
+    width: 280px;
+    height: 258px;
+    border-radius: 5px;
+    background-color: $main-color;
+    &__title {
+        color: #eff7e7;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    &__descr {
+        margin-top: 5px;
+        color: #edf6e5;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.1px;
+        line-height: 24px;
+    }
+    &__email {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.1px;
+        color: #edf6e5;
+        &:hover {
+            color: #edf6e5;
+        }
+    }
+    &__button {
+        margin-top: 13px;
+    }
+}

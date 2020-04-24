@@ -1,0 +1,21 @@
+.navigation {
+    &__title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #000000;
+    }
+    &__menu {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    &__link {
+        color: #607d8b;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 40px;
+        &:hover {
+            color: #607d8b;
+        }
+    }
+}

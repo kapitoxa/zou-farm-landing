@@ -6,6 +6,10 @@
 * {
     font-family: 'Chivo', sans-serif;
 }
+.section {
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .container {
     position: relative;
 }
@@ -20,3 +24,6 @@
 @import "blocks/how-it-works";
 @import "blocks/testimnonials";
 @import "blocks/invest";
+@import "blocks/footer";
+@import "blocks/navigation";
+@import "blocks/card";

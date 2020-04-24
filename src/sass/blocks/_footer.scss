@@ -1,0 +1,31 @@
+.footer {
+    min-height: 645px;
+    padding: 90px 0 86px 0;
+    background: url("../img/footer-shape.svg") right bottom no-repeat;
+    &__container {
+        max-width: 1056px;
+        padding: 0;
+    }
+    &__section {
+        background-color: #f5f5f5;
+    }
+    &__card {
+        margin: 0 0 0 auto;
+    }
+    &__divider {
+        margin-top: 118px;
+        margin-bottom: 70px;
+        width: 1056px;
+        height: 2px;
+        background-color: #eeeeee;
+        border: none;
+    }
+    &__logo {
+        height: 35px;
+    }
+    &__copyright {
+        color: #607d8b;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
