@@ -13,11 +13,38 @@
         margin-top: 14px;
         text-align: center;
     }
-    &__steps-wrapper {
+    &__navigation {
         position: relative;
         margin-top: 50px;
+        .slick-active {
+            border: none;
+            border-radius: 100%;
+            box-shadow: -1px 13px 20px #5ab963;
+            background-color: #ecf7ed;
+            color: #66bb6a;
+            font-size: 18px;
+        }
+    }
+    &__steps {
+        padding-left: 0;
+        margin-bottom: 0;
         display: flex;
         justify-content: space-between;
+        list-style-type: none;      
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 72px;
+            height: 72px;
+            border: 2px solid #b3dcb6;
+            border-radius: 100%;
+            background-color: $main-color;
+            font-size: 18px;
+            color: #d1ead3;
+            cursor: pointer;
+            z-index: 1;
+        }  
     }
     &__step {
         display: flex;
@@ -49,23 +76,50 @@
         height: 2px;
         background-color: #a5d6a7;
     }
-    &__info-wrapper {
+    &-item {
         margin-top: 83px;
         display: flex;
         justify-content: space-between;
+        &__title {
+            max-width: 40%;
+            color: $second-color;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+        }
+        &__descr {
+            padding-left: 59px;
+            max-width: 60%;
+            color: #e8f5e9;
+            font-size: 16px;
+            line-height: 24px;
+        }
     }
-    &__info-title {
-        max-width: 40%;
-        color: $second-color;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 32px;
-    }
-    &__info-descr {
-        padding-left: 59px;
-        max-width: 60%;
-        color: #e8f5e9;
-        font-size: 16px;
-        line-height: 24px;
+    // .slick-dots {
+    //     display: flex;
+    //     // justify-content: center;
+    //     // align-items: center;
+    //     // width: 72px;
+    //     // height: 72px;
+    //     // border: 2px solid #b3dcb6;
+    //     // border-radius: 100%;
+    //     // background-color: $main-color;
+    //     // font-size: 18px;
+    //     // color: #d1ead3;
+    //     // cursor: pointer;
+    //     // &_active {
+    //     //     border: none;
+    //     //     box-shadow: -1px 13px 20px #5ab963;
+    //     //     background-color: #ecf7ed;
+    //     //     color: #66bb6a;
+    //     //     font-size: 18px;
+    //     // }
+    //     // z-index: 1;
+    //     list-style-type: none;
+    //     padding-left: 0;
+    //     margin-bottom: 0;
+    // }
+    .slick-initialized .slick-slide {
+        display: flex;
     }
 }
