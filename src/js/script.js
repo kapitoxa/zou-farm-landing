@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         slidesToShow: 2,
         centerMode: true,
         variableWidth: true,
+        swipeToSlide: true,
         prevArrow: '.testimnonials__control_left',
         nextArrow: '.testimnonials__control_right'
     });
