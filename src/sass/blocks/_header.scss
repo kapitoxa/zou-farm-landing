@@ -4,7 +4,9 @@
     min-height: 788px;
     background: url("../img/main-bg.png") center (center/cover) no-repeat;
     &__logo {
+        display: block;
         padding-top: 4px;
+        max-width: 100%;
     }
     &__menu {
         margin-top: 13px;
