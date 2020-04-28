@@ -1,0 +1,15 @@
+@media (max-width: 1199px) {
+    .container {
+        &_narrow {
+            padding: 0 50px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        &_narrow {
+            padding: 0 15px;
+        }
+    }
+}

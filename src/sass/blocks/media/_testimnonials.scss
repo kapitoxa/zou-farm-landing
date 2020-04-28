@@ -1,0 +1,87 @@
+@media (max-width: 991px) {
+    .testimnonials {
+        &__wrapper {
+            &::before {
+                width: 75px;
+            }
+            &::after {
+                width: 75px;
+            }
+        }
+        &__controls-wrapper {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .testimnonials {
+        &__title {
+            width: 340px;
+        }
+        &__wrapper {
+            &:before {
+                display: none;
+            }
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .testimnonials {
+        &__title {
+            width: 100%;
+        }
+        &-item {
+            width: 320px;
+            padding: 35px 30px;
+            &__avatar {
+                width: 60px;
+                height: 60px;
+            }
+            &__name {
+                font-size: 17px;
+            }
+            &__text {
+                margin-top: 25px;
+            }
+            &__descr {
+                font-size: 17px;
+                line-height: 28px;
+                &::before {
+                    font-size: 17px;
+                    line-height: 28px;
+                }
+            }
+        }
+        .slick-dots {
+            li {
+                button {
+                    &:hover {
+                        &:before {
+                            opacity: 0.25;
+                        }
+                    }
+                    &:before {
+                        font-size: 35px;
+                    }
+                }
+            }
+            .slick-active {
+                button {
+                    &:hover {
+                        &:before {
+                            opacity: 1;
+                        }
+                    }
+                    &:before {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

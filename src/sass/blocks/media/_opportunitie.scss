@@ -1,0 +1,37 @@
+@media (max-width: 1199px) {
+    .opportunitie {
+        &-item {
+            min-height: 410px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .opportunitie {
+        &__row {
+            margin-top: 70px;
+        }
+        &-item {
+            margin-top: 30px;
+            &_shadow {
+                &_left {
+                    box-shadow: 0px 13px 20px #f0f2f4;
+                }
+                &_right {
+                    box-shadow: 0px 13px 20px #f0f2f4;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .opportunitie {
+        &__description {
+            width: 100%;
+        }
+        &-item {
+            min-height: 280px;
+        }
+    }
+}

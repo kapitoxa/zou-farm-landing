@@ -1,18 +1,16 @@
 @import "libs/_bootstrap-reboot.min.css";
 @import "libs/_bootstrap-grid.min.css";
 @import "libs/slick";
+@import "libs/slick-theme";
 
-@import "base/variables";
 * {
     font-family: 'Chivo', sans-serif;
 }
-.section {
-    margin: 0 auto;
-    max-width: 1440px;
-}
-.container {
-    position: relative;
-}
+@import "base/variables";
+@import "base/section";
+@import "base/container";
+
+@import "base/media/container";
 
 @import "blocks/header";
 @import "blocks/buttons";
@@ -26,3 +24,15 @@
 @import "blocks/footer";
 @import "blocks/navigation";
 @import "blocks/card";
+
+@import "blocks/media/header";
+@import "blocks/media/buttons";
+@import "blocks/media/description";
+@import "blocks/media/opportunitie";
+@import "blocks/media/title";
+@import "blocks/media/convenience";
+@import "blocks/media/how-it-works";
+@import "blocks/media/testimnonials";
+@import "blocks/media/footer";
+@import "blocks/media/navigation";
+@import "blocks/media/card";

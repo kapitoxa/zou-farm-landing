@@ -1,7 +1,7 @@
 .card {
     padding: 32px 61px 72px 56px;
-    width: 280px;
-    height: 258px;
+    max-width: 280px;
+    max-height: 258px;
     border-radius: 5px;
     background-color: $main-color;
     &__title {

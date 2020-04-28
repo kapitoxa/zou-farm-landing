@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+    .button {
+        width: 110px;
+        height: 40px;
+        &_size {
+            &_medium {
+                width: 144px;
+                height: 48px;
+            }
+            &_large {
+                width: 200px;
+                height: 48px;
+            }
+            &_xl {
+                width: 296px;
+                height: 48px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .button {
+        &_size {
+            &_xl {
+                width: 250px;
+            }
+        }
+    }
+}

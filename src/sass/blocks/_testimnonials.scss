@@ -3,7 +3,7 @@
     min-height: 894px;
     background: url("../../img/testimnonials-bg.png") center bottom no-repeat;
     &__title {
-        margin-left: 72px;
+        width: 400px;
         height: 108px;
         background: url("../img/quotes.png") left top no-repeat;
     }
@@ -52,6 +52,7 @@
             font-weight: 700;
             line-height: 24px;
             span {
+                display: block;
                 color: $main-color;
             }
         }
@@ -83,7 +84,6 @@
     }
     &__controls-wrapper {
         margin-top: 36px;
-        margin-left: 72px;
         display: flex;
     }
     &__control {

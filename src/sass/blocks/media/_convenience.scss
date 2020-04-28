@@ -1,0 +1,37 @@
+@media (max-width: 1199px) {
+    .convenience {
+        &-item {
+            padding: 39px 110px 49px 45px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .convenience {
+        &-item {
+            padding: 30px 40px 50px 40px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .convenience {
+        &__description {
+            width: 100%;
+        }
+        &__row {
+            margin-top: 48px;
+        }
+        &-item {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .convenience {
+        &-item {
+            padding: 30px 30px 30px 35px;
+        }
+    }
+}
